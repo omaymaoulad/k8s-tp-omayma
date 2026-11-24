@@ -1,0 +1,9 @@
+# quota.yaml
+apiVersion: v1
+kind: ResourceQuota
+metadata:
+  name: pod-quota
+  namespace: dev
+spec:
+  hard:
+    pods: "4"

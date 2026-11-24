@@ -1,0 +1,9 @@
+# web-config.yaml
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: web-config
+data:
+  APP_ENV: "dev"
+  index.html: |
+    <h1>ENSAH - GL5 - environnement dev</h1>
